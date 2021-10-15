@@ -8,6 +8,5 @@ public class cosEvent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         ShowScore.scoreValue += 1;
-        Debug.Log(ShowScore.scoreValue);
     }
 }
